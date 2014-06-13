@@ -6,3 +6,5 @@
 	name = benzkji
 	email = bnzk@bnzk.ch
 
+[push]
+	default = simple
