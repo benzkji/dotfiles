@@ -14,7 +14,7 @@ ZSH_THEME="sunrise"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+CASE_SENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -50,17 +50,11 @@ ZSH_THEME="sunrise"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git virtualenvwrapper jsontools pip rvm history dirhistory django fabric)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-# the wrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Development
-source /usr/local/bin/virtualenvwrapper_lazy.sh
 
 export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:./:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/benzkji/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
