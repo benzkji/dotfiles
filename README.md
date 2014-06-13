@@ -1,6 +1,8 @@
 dot-and-other-files
 ===================
 
-oh-my-zsh. and getting started with organising...
+oh-my-zsh. check plugins: ssh-agent, django, fabric, osx (itunes ;-), pip, rvm, history, jump, dirhistory 
 
-note to myself: add gitconfig and global_gitignore. and the rest!
+add gitconfig and global_gitignore. and the rest!
+
+a soundcloud plugin? ;-)

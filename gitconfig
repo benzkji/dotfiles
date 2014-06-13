@@ -1,0 +1,8 @@
+
+[core]
+	excludesfile = /Users/benzkji/.gitignore_global
+
+[user]
+	name = benzkji
+	email = bnzk@bnzk.ch
+

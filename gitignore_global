@@ -1,0 +1,14 @@
+*~
+*.orig
+*.rej
+*.swp
+.#*
+*.o
+.DS_Store
+private.xml
+config.properties
+project.xml
+project.properties
+private.properties
+*.pyc
+
