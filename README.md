@@ -1,8 +1,6 @@
 dot-and-other-files
 ===================
 
-oh-my-zsh. check plugins: ssh-agent, django, fabric, osx (itunes ;-), pip, rvm, history, jump, dirhistory 
-
-add gitconfig and global_gitignore. and the rest!
+using rcm, oh-my-zsh. check omzplugins: ssh-agent, django, fabric, osx (itunes ;-), pip, rvm, history, jump, dirhistory 
 
 a soundcloud plugin? ;-)
