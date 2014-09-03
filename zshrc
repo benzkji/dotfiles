@@ -57,7 +57,10 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:./:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/benzkji/.rvm/bin"
+# backup export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/benzkji/.rvm/bin"
+
+export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/benzkji/.rvm/bin"
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
