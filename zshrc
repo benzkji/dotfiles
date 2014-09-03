@@ -8,6 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 #ZSH_THEME="pygmalion"
 ZSH_THEME="sunrise"
+#ZSH_THEME="ys"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -50,7 +51,7 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git virtualenvwrapper jsontools pip rvm history dirhistory django fabric)
+plugins=(git virtualenvwrapper jsontools pip rvm django fabric)
 
 source $ZSH/oh-my-zsh.sh
 
