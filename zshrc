@@ -57,6 +57,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# disable history sharing
+setopt no_share_history
+
 # backup export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/benzkji/.rvm/bin"
 
 export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/benzkji/.rvm/bin"
