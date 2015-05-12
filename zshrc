@@ -33,7 +33,7 @@ CASE_SENSITIVE="true"
 # DISABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -51,14 +51,14 @@ CASE_SENSITIVE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git virtualenvwrapper jsontools pip rvm django fabric)
+plugins=(git history-substring-search virtualenvwrapper jsontools pip rvm django fabric )
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
 # disable history sharing
-setopt no_share_history
+# setopt no_share_history
 
 # backup export PATH="/usr/local/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451/bin:/Users/benzkji/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/benzkji/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin:/opt/local/bin:/opt/local/sbin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/benzkji/.rvm/bin"
 
