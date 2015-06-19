@@ -52,8 +52,8 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 
-# plugins=(git history-substring-search virtualenvwrapper jsontools pip rvm django fabric )
-plugins=(git history-substring-search jsontools pip rvm django fabric )
+plugins=(git history-substring-search virtualenvwrapper jsontools pip rvm django fabric )
+# plugins=(git history-substring-search jsontools pip rvm django fabric )
 
 source $ZSH/oh-my-zsh.sh
 
