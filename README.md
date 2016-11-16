@@ -1,8 +1,14 @@
 dot-and-other-files
 ===================
 
-using rcm, oh-my-zsh. need to check omzplugins: ssh-agent, django, fabric, osx (itunes ;-), pip, rvm, history, jump, dirhistory 
+using gnu stow, antigen, oh-my-zsh.
 
+- https://www.gnu.org/software/stow/
+- http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
+- https://github.com/zsh-users/antigen
 - https://github.com/robbyrussell/oh-my-zsh
-- https://github.com/thoughtbot/rcm
+- https://dotfiles.github.io/
+
+mac (deprecated)
+
 - https://github.com/tomislav/osx-terminal.app-colors-solarized
