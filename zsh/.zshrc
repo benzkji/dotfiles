@@ -1,3 +1,11 @@
+
+export PIP_REQUIRE_VIRTUALENV=true
+gpip() {
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
+# antigen stuff.
+
 source $HOME/dotfiles/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
