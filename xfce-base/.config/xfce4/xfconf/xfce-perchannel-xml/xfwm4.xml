@@ -5,7 +5,7 @@
     <property name="activate_action" type="string" value="bring"/>
     <property name="box_move" type="empty"/>
     <property name="box_resize" type="empty"/>
-    <property name="button_layout" type="string" value="CHM|O"/>
+    <property name="button_layout" type="string" value="O|HMC"/>
     <property name="button_offset" type="empty"/>
     <property name="button_spacing" type="empty"/>
     <property name="click_to_focus" type="empty"/>
