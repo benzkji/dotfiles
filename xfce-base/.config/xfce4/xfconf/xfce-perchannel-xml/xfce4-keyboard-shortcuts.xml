@@ -145,7 +145,6 @@
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
       <property name="&lt;Alt&gt;F5" type="string" value="maximize_horiz_key"/>
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
-      <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
       <property name="&lt;Alt&gt;F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Alt&gt;F8" type="string" value="stick_window_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
@@ -182,6 +181,7 @@
       <property name="&lt;Super&gt;section" type="string" value="switch_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="string" value="maximize_window_key"/>
       <property name="&lt;Super&gt;w" type="string" value="close_window_key"/>
+      <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
     </property>
   </property>
   <property name="providers" type="array">
