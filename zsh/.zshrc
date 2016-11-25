@@ -1,8 +1,17 @@
 
+
+# http://stackoverflow.com/questions/27410821/how-to-prevent-pip-install-without-virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
 gpip() {
    PIP_REQUIRE_VIRTUALENV="" pip "$@"
 }
+
+
+# http://guides.rubygems.org/faqs/#user-install
+if which ruby >/dev/null && which gem >/dev/null; then
+    PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
+fi
+
 
 # antigen stuff.
 
