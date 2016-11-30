@@ -1,4 +1,5 @@
 
+export EDITOR=vim
 
 # http://stackoverflow.com/questions/27410821/how-to-prevent-pip-install-without-virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
