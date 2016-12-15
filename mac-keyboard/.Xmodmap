@@ -11,8 +11,8 @@ keycode 133 = Super_L
 ! remove Control = Control_L
 remove Mod1 = Alt_L
 remove Mod4 = Super_L
-add Mod1 = Super_L
 add Mod4 = Alt_L
+add Mod1 = Super_L
 ! adding Control does not work, whatever
 
 ! add Mod1 = Control_L
