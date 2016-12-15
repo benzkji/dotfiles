@@ -1,0 +1,28 @@
+
+! check:
+! http://unix.stackexchange.com/questions/86933/swap-alt-and-super
+! http://askubuntu.com/questions/766924/dell-inspiron-15-7568-touchpad-move-freeze-on-xenial-16-04/768264#768264
+
+! left side
+! ALT is Mod1, Command/Windows is Mod4 (Super)
+keycode 37 = Control_L
+keycode 64 = Alt_L
+keycode 133 = Super_L
+! remove Control = Control_L
+remove Mod1 = Alt_L
+remove Mod4 = Super_L
+add Mod1 = Super_L
+add Mod4 = Alt_L
+! adding Control does not work, whatever
+
+! add Mod1 = Control_L
+! add Mod4 = Super_L
+! add Control = Alt_L
+
+! right side => check alt_r
+! keycode 108 = Alt_R
+! keycode 134 = Super_R
+! remove Mod1 = Alt_R
+! remove Mod4 = Super_R
+! add Mod1 = Super_R
+! add Mod4 = Alt_R
