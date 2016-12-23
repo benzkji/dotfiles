@@ -54,7 +54,6 @@
       <property name="&lt;Super&gt;o" type="string" value="jumpapp libreoffice --writer"/>
       <property name="&lt;Super&gt;c" type="string" value="gnome-calculator"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
-      <property name="&lt;Super&gt;t" type="string" value="jumpapp xfce4-terminal"/>
       <property name="&lt;Super&gt;s" type="string" value="jumpapp xfce4-settings-manager"/>
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp thunar"/>
@@ -65,6 +64,8 @@
       <property name="&lt;Super&gt;k" type="string" value="jumpapp KeeWeb"/>
       <property name="&lt;Super&gt;b" type="string" value="jumpapp chromium-browser"/>
       <property name="&lt;Super&gt;f" type="string" value="jumpapp chromium-browser"/>
+      <property name="&lt;Super&gt;v" type="string" value="jumpapp vlc"/>
+      <property name="&lt;Super&gt;t" type="string" value="jumpapp Telegram"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -171,10 +172,10 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;Right" type="string" value="tile_right_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Up" type="string" value="maximize_window_key"/>
       <property name="&lt;Alt&gt;F9" type="string" value="hide_window_key"/>
-      <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;ISO_Left_Tab" type="string" value="cycle_reverse_windows_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
       <property name="&lt;Alt&gt;q" type="string" value="close_window_key"/>
+      <property name="&lt;Alt&gt;Tab" type="string" value="cycle_windows_key"/>
     </property>
   </property>
   <property name="providers" type="array">
