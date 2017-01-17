@@ -65,6 +65,7 @@
       <property name="&lt;Super&gt;v" type="string" value="jumpapp vlc"/>
       <property name="&lt;Super&gt;t" type="string" value="jumpapp -c TelegramDesktop /home/benzkji/Apps/Telegram/Telegram"/>
       <property name="&lt;Super&gt;d" type="string" value="jumpapp -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
+      <property name="&lt;Super&gt;y" type="string" value="jumpapp chromium-browser"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
