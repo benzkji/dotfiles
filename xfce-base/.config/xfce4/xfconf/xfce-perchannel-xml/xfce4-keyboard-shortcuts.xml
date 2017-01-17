@@ -58,14 +58,13 @@
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp thunar"/>
       <property name="&lt;Super&gt;a" type="string" value="jumpapp atom"/>
-      <property name="&lt;Super&gt;i" type="string" value="/home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
-      <property name="&lt;Super&gt;d" type="string" value="/home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
       <property name="&lt;Super&gt;x" type="string" value="jumpapp xfce4-terminal"/>
       <property name="&lt;Super&gt;k" type="string" value="jumpapp KeeWeb"/>
       <property name="&lt;Super&gt;b" type="string" value="jumpapp chromium-browser"/>
       <property name="&lt;Super&gt;f" type="string" value="jumpapp chromium-browser"/>
       <property name="&lt;Super&gt;v" type="string" value="jumpapp vlc"/>
-      <property name="&lt;Super&gt;t" type="string" value="jumpapp Telegram"/>
+      <property name="&lt;Super&gt;t" type="string" value="jumpapp -c TelegramDesktop /home/benzkji/Apps/Telegram/Telegram"/>
+      <property name="&lt;Super&gt;d" type="string" value="jumpapp -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
