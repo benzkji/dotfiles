@@ -52,7 +52,6 @@
       <property name="&lt;Super&gt;9" type="string" value="xfce4-screenshooter -w"/>
       <property name="&lt;Super&gt;0" type="string" value="xfce4-screenshooter -r"/>
       <property name="&lt;Super&gt;o" type="string" value="jumpapp libreoffice --writer"/>
-      <property name="&lt;Super&gt;c" type="string" value="gnome-calculator"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;s" type="string" value="jumpapp xfce4-settings-manager"/>
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
@@ -66,6 +65,7 @@
       <property name="&lt;Super&gt;t" type="string" value="jumpapp -c TelegramDesktop /home/benzkji/Apps/Telegram/Telegram"/>
       <property name="&lt;Super&gt;d" type="string" value="jumpapp -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
       <property name="&lt;Super&gt;y" type="string" value="jumpapp chromium-browser"/>
+      <property name="&lt;Super&gt;c" type="string" value="jumpapp gnome-calculator"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
