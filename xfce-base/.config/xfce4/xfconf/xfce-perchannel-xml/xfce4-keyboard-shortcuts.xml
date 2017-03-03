@@ -51,7 +51,6 @@
       <property name="&lt;Alt&gt;space" type="string" value="xfce4-popup-whiskermenu"/>
       <property name="&lt;Super&gt;9" type="string" value="xfce4-screenshooter -w"/>
       <property name="&lt;Super&gt;0" type="string" value="xfce4-screenshooter -r"/>
-      <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;s" type="string" value="jumpapp xfce4-settings-manager"/>
       <property name="&lt;Super&gt;k" type="string" value="jumpapp KeeWeb"/>
       <property name="&lt;Super&gt;v" type="string" value="jumpapp vlc"/>
@@ -66,6 +65,7 @@
       <property name="&lt;Super&gt;e" type="string" value="jumpapp -w thunar"/>
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w xfce4-terminal"/>
+      <property name="&lt;Super&gt;m" type="string" value="jumpapp evolution"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
