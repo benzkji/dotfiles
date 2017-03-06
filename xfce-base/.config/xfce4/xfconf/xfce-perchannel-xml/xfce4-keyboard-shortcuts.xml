@@ -65,8 +65,8 @@
       <property name="&lt;Super&gt;e" type="string" value="jumpapp -w thunar"/>
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w xfce4-terminal"/>
-      <property name="&lt;Super&gt;m" type="string" value="jumpapp evolution"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="string" value="move-to-next-monitor.sh"/>
+      <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
