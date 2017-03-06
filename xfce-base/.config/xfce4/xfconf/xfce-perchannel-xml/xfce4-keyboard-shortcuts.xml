@@ -58,7 +58,6 @@
       <property name="&lt;Super&gt;a" type="string" value="jumpapp -w atom"/>
       <property name="&lt;Super&gt;b" type="string" value="jumpapp -w chromium-browser"/>
       <property name="&lt;Super&gt;y" type="string" value="jumpapp -w chromium-browser"/>
-      <property name="&lt;Super&gt;f" type="string" value="jumpapp -w chromium-browser"/>
       <property name="&lt;Super&gt;d" type="string" value="jumpapp -w -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
       <property name="&lt;Super&gt;c" type="string" value="jumpapp -w gnome-calculator"/>
       <property name="&lt;Super&gt;o" type="string" value="jumpapp -w libreoffice --writer"/>
@@ -67,6 +66,7 @@
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w xfce4-terminal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="string" value="move-to-next-monitor.sh"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
+      <property name="&lt;Super&gt;f" type="string" value="jumpapp -w firefox"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
