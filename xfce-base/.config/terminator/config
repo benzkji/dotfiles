@@ -8,7 +8,7 @@
   line_down = <Shift>Down
   line_up = <Shift>Up
   split_horiz = <Primary><Shift>h
-  split_vert = <Primary><Shift>v
+  split_vert = <Primary><Shift>k
 [layouts]
   [[default]]
     [[[child1]]]
