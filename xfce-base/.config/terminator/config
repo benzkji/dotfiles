@@ -22,6 +22,7 @@
 [profiles]
   [[default]]
     background_color = "#282828"
+    copy_on_selection = True
     cursor_color = "#aaaaaa"
     font = DejaVu Sans Mono 10
     foreground_color = "#ebdbb2"
