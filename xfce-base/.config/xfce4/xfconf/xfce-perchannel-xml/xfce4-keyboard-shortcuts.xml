@@ -56,17 +56,20 @@
       <property name="&lt;Super&gt;v" type="string" value="jumpapp vlc"/>
       <property name="&lt;Super&gt;t" type="string" value="jumpapp -c TelegramDesktop /home/benzkji/Apps/Telegram/Telegram"/>
       <property name="&lt;Super&gt;a" type="string" value="jumpapp -w atom"/>
-      <property name="&lt;Super&gt;b" type="string" value="jumpapp -w chromium-browser"/>
       <property name="&lt;Super&gt;y" type="string" value="jumpapp -w chromium-browser"/>
       <property name="&lt;Super&gt;d" type="string" value="jumpapp -w -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
       <property name="&lt;Super&gt;c" type="string" value="jumpapp -w gnome-calculator"/>
       <property name="&lt;Super&gt;o" type="string" value="jumpapp -w libreoffice --writer"/>
-      <property name="&lt;Super&gt;e" type="string" value="jumpapp -w thunar"/>
-      <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings --minimal"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="string" value="move-to-next-monitor.sh"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;f" type="string" value="jumpapp -w firefox"/>
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w terminator"/>
+      <property name="&lt;Super&gt;n" type="string" value="jumpapp nulloy"/>
+      <property name="&lt;Super&gt;b" type="string" value="jumpapp bitwig"/>
+      <property name="&lt;Super&gt;r" type="string" value="jumpapp ocenaudio"/>
+      <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings"/>
+      <property name="&lt;Super&gt;z" type="string" value="jumpapp audacity"/>
+      <property name="&lt;Super&gt;e" type="string" value="jumpapp -w pcmanfm"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
