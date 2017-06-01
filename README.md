@@ -1,7 +1,7 @@
 dot-and-other-files
 ===================
 
-using gnu stow (still) custom stow.py (soon), antigen, oh-my-zsh.
+using gnu stow, antigen, oh-my-zsh.
 
 - https://www.gnu.org/software/stow/
 - http://brandon.invergo.net/news/2012-05-26-using-gnu-stow-to-manage-your-dotfiles.html
@@ -9,7 +9,14 @@ using gnu stow (still) custom stow.py (soon), antigen, oh-my-zsh.
 - https://github.com/robbyrussell/oh-my-zsh
 - https://dotfiles.github.io/
 
-TODO: write own stow.py, that allows getting the overwritten symlinks content!
+normal mode:
+cd dotfiles
+stow xfce-base (--adopt may be needed)
+stow divers
+stow zsh
+
+TODO: describe antigen setup, submodule shizzle?!
+
 
 mac (deprecated)
 
