@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 
-# normalize and overwrite existing files
-# use with care! mp3 only for a reason :)
-ffmpeg-normalize --no-prefix -rMP3 --level=-12 --force *.MP3
+# normalize and write .mp3 files (originalas are MP3...)
+ffmpeg-normalize --no-prefix -rmp3 --level=-12 --force *.MP3
