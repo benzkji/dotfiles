@@ -14,7 +14,7 @@ if which ruby >/dev/null && which gem >/dev/null; then
 fi
 
 # my bin??! needed?!
-# PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 # antigen stuff.
 
