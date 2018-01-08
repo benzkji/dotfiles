@@ -11,12 +11,13 @@ using gnu stow, antigen, oh-my-zsh.
 
 normal mode:
 cd dotfiles
-stow xfce-base (--adopt may be needed)
+stow xfce-base
+stow xfce-desktop/laptop
 stow divers
 stow zsh
 
 TODO: describe antigen setup, submodule shizzle?!
-
+TODO: use zgen instead of antigen. https://github.com/tarjoilija/zgen
 
 mac (deprecated)
 
