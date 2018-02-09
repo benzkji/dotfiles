@@ -18,8 +18,8 @@ if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
-# my bin??! needed?!
-export PATH="$HOME/bin:$PATH"
+# my bin, gpip install --user bin!
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # antigen stuff.
 source $HOME/dotfiles/antigen/antigen.zsh
