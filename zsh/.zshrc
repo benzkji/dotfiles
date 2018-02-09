@@ -1,6 +1,11 @@
 
 export EDITOR=vim
 
+# this is handled by oh-my-zsh/virtualenvwrapper
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/Development
+# source /usr/local/bin/virtualenvwrapper.sh
+
 # http://stackoverflow.com/questions/27410821/how-to-prevent-pip-install-without-virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
 gpip() {
@@ -17,7 +22,6 @@ fi
 export PATH="$HOME/bin:$PATH"
 
 # antigen stuff.
-
 source $HOME/dotfiles/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
