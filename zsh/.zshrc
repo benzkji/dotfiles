@@ -1,6 +1,11 @@
 
 export EDITOR=vim
 
+# this is handled by oh-my-zsh/virtualenvwrapper
+# export WORKON_HOME=$HOME/.virtualenvs
+# export PROJECT_HOME=$HOME/Development
+# source /usr/local/bin/virtualenvwrapper.sh
+
 # http://stackoverflow.com/questions/27410821/how-to-prevent-pip-install-without-virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
 gpip() {
@@ -13,11 +18,10 @@ if which ruby >/dev/null && which gem >/dev/null; then
     PATH="$(ruby -rubygems -e 'puts Gem.user_dir')/bin:$PATH"
 fi
 
-# my bin??! needed?!
-export PATH="$HOME/bin:$PATH"
+# my bin, gpip install --user bin!
+export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # antigen stuff.
-
 source $HOME/dotfiles/antigen/antigen.zsh
 
 # Load the oh-my-zsh's library.
