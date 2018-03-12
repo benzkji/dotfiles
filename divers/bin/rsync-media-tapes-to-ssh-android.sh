@@ -3,6 +3,7 @@
 # --ignore-existing
 
 rsync \
+  -e 'ssh -p 2222' \
   --human-readable \
   --recursive \
   --inplace  \
@@ -13,4 +14,4 @@ rsync \
   --progress \
   --delete \
   /home/benzkji/Sync/media-tapes\
-  /run/user/$UID/gvfs/mtp*/SD*/my-media/
+  benzkji@192.168.0.38:storage/my-media/

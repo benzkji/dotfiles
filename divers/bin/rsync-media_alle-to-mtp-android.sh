@@ -2,6 +2,7 @@
 
 
 rsync  \
+  --human-readable \
   --recursive \
   --inplace \
   --omit-dir-times \
@@ -11,5 +12,8 @@ rsync  \
   --progress \
   --delete \
   --ignore-existing \
+  \
+  --exclude=.sync \
+  \
   /home/benzkji/Sync/media-alle \
   /run/user/$UID/gvfs/mtp*/SD*/my-media/
