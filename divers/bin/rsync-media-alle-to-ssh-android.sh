@@ -2,6 +2,7 @@
 
 
 rsync  \
+  -e 'ssh -p 2222' \
   --human-readable \
   --recursive \
   --inplace \
@@ -16,4 +17,4 @@ rsync  \
   --exclude=.sync \
   \
   /home/benzkji/Sync/media-alle \
-  /run/user/$UID/gvfs/mtp*/SD*/my-media/
+  benzkji@192.168.0.38:storage/my-media/ \
