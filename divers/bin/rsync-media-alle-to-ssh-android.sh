@@ -1,7 +1,16 @@
 #!/usr/bin/env bash
 
+# --ignore-existing \
 
-rsync  \
+if [ -z "$1" ]
+  then
+    # at home, most of time
+    SSH_HOST=192.168.0.38
+  else
+    SSH_HOST=$1
+fi
+
+rsync \
   -e 'ssh -p 2222' \
   --human-readable \
   --recursive \
@@ -12,9 +21,8 @@ rsync  \
   --verbose \
   --progress \
   --delete \
-  --ignore-existing \
   \
   --exclude=.sync \
   \
   /home/benzkji/Sync/media-alle \
-  benzkji@192.168.0.38:storage/my-media/ \
+  benzkji@$SSH_HOST:storage/my-media/ \
