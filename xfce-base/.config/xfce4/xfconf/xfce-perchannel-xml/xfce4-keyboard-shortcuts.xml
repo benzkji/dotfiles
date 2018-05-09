@@ -70,6 +70,7 @@
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings"/>
       <property name="&lt;Super&gt;z" type="string" value="jumpapp audacity"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp -w pcmanfm"/>
+      <property name="&lt;Super&gt;g" type="string" value="jumpapp dbeaver"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
