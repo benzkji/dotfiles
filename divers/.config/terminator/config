@@ -1,7 +1,6 @@
 [global_config]
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   geometry_hinting = True
-  hide_from_taskbar = True
   inactive_color_offset = 0.59
   suppress_multiple_term_dialog = True
 [keybindings]
