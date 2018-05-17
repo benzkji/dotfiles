@@ -24,11 +24,11 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-development.png"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg"/>
           <property name="color1" type="array">
-            <value type="uint" value="7689"/>
-            <value type="uint" value="11957"/>
-            <value type="uint" value="17539"/>
+            <value type="uint" value="19005"/>
+            <value type="uint" value="7626"/>
+            <value type="uint" value="5558"/>
             <value type="uint" value="65535"/>
           </property>
         </property>
@@ -75,12 +75,12 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="0"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-wily.png"/>
+          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/The_Sky_Is_The_Limit_by_Kaushik_Panchal.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="false"/>
           <property name="color1" type="array">
-            <value type="uint" value="13731"/>
-            <value type="uint" value="17979"/>
-            <value type="uint" value="17979"/>
+            <value type="uint" value="21102"/>
+            <value type="uint" value="30146"/>
+            <value type="uint" value="29845"/>
             <value type="uint" value="65535"/>
           </property>
         </property>

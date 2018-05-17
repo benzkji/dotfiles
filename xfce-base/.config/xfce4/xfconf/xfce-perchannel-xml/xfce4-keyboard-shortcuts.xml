@@ -70,7 +70,8 @@
       <property name="&lt;Super&gt;p" type="string" value="jumpapp xfce4-display-settings"/>
       <property name="&lt;Super&gt;z" type="string" value="jumpapp audacity"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp -w pcmanfm"/>
-      <property name="&lt;Super&gt;g" type="string" value="jumpapp dbeaver"/>
+      <property name="&lt;Super&gt;l" type="string" value="jumpapp quodlibet"/>
+      <property name="&lt;Super&gt;h" type="string" value="jumpapp dbeaver"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -136,7 +137,6 @@
       <property name="Left" type="string" value="left_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_6" type="string" value="move_window_workspace_6_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_7" type="string" value="move_window_workspace_7_key"/>
-      <property name="&lt;Primary&gt;F6" type="string" value="workspace_6_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;d" type="string" value="show_desktop_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Home" type="string" value="move_window_prev_workspace_key"/>
@@ -147,22 +147,11 @@
       <property name="&lt;Alt&gt;F8" type="string" value="stick_window_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;End" type="string" value="move_window_next_workspace_key"/>
-      <property name="&lt;Primary&gt;F10" type="string" value="workspace_10_key"/>
-      <property name="&lt;Primary&gt;F11" type="string" value="workspace_11_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="&lt;Alt&gt;F6" type="string" value="maximize_vert_key"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Down" type="string" value="lower_window_key"/>
       <property name="Right" type="string" value="right_key"/>
-      <property name="&lt;Primary&gt;F12" type="string" value="workspace_12_key"/>
-      <property name="&lt;Primary&gt;F1" type="string" value="workspace_1_key"/>
-      <property name="&lt;Primary&gt;F2" type="string" value="workspace_2_key"/>
-      <property name="&lt;Primary&gt;F4" type="string" value="workspace_4_key"/>
-      <property name="&lt;Primary&gt;F5" type="string" value="workspace_5_key"/>
-      <property name="&lt;Primary&gt;F3" type="string" value="workspace_3_key"/>
-      <property name="&lt;Primary&gt;F7" type="string" value="workspace_7_key"/>
-      <property name="&lt;Primary&gt;F8" type="string" value="workspace_8_key"/>
-      <property name="&lt;Primary&gt;F9" type="string" value="workspace_9_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_1" type="string" value="move_window_workspace_1_key"/>
       <property name="&lt;Shift&gt;&lt;Alt&gt;Page_Up" type="string" value="raise_window_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_4" type="string" value="move_window_workspace_4_key"/>
