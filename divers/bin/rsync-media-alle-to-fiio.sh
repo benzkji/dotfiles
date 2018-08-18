@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-  # --inplace \
-  # --omit-dir-times \
-  # --size-only \
-  # --no-perms \
-  # --ignore-existing \
 
 rsync  \
   --human-readable \
@@ -12,6 +7,12 @@ rsync  \
   --verbose \
   --progress \
   --delete \
+  \
+  --inplace \
+  --omit-dir-times \
+  --size-only \
+  --no-perms \
+  --ignore-existing \
   \
   --exclude=.sync \
   \
