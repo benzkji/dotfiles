@@ -47,3 +47,6 @@ antigen theme sunrise
 
 # Tell antigen that you're done.
 antigen apply
+
+# for the virtualenvwrapper plugin!
+cd ./
