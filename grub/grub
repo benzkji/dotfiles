@@ -1,4 +1,4 @@
-# /etc/default/grub 
+# /etc/default/grub
 # If you change this file, run 'update-grub' afterwards to update
 # /boot/grub/grub.cfg.
 # For full documentation of the options in this file, see:
@@ -9,6 +9,7 @@ GRUB_DEFAULT=0
 # GRUB_HIDDEN_TIMEOUT_QUIET=true
 GRUB_TIMEOUT=3
 GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+# GRUB_CMDLINE_LINUX_DEFAULT="text"
 GRUB_CMDLINE_LINUX_DEFAULT="acpi_backlight=vendor"
 GRUB_CMDLINE_LINUX=""
 
