@@ -21,6 +21,9 @@ fi
 # my bin, gpip install --user bin!
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
+# android sdk, if any?!
+export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools
+
 # antigen stuff.
 source $HOME/dotfiles/antigen/antigen.zsh
 
