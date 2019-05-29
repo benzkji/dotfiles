@@ -67,12 +67,13 @@
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w terminator"/>
       <property name="&lt;Super&gt;n" type="string" value="jumpapp nulloy"/>
       <property name="&lt;Super&gt;b" type="string" value="jumpapp bitwig"/>
-      <property name="&lt;Super&gt;r" type="string" value="jumpapp ocenaudio"/>
       <property name="&lt;Super&gt;z" type="string" value="jumpapp audacity"/>
       <property name="&lt;Super&gt;e" type="string" value="jumpapp -w pcmanfm"/>
       <property name="&lt;Super&gt;l" type="string" value="jumpapp quodlibet"/>
       <property name="&lt;Super&gt;h" type="string" value="jumpapp dbeaver"/>
-      <property name="&lt;Super&gt;p" type="string" value="jumpapp atril"/>
+      <property name="&lt;Super&gt;Pause" type="string" value="light-locker-command -l"/>
+      <property name="&lt;Super&gt;p" type="string" value="jumpapp evince"/>
+      <property name="&lt;Super&gt;r" type="string" value="jumpapp -w screenruler"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
