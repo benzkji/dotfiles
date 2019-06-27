@@ -45,6 +45,8 @@
       <property name="size-max" type="uint" value="22"/>
       <property name="names-visible" type="array">
         <value type="string" value="thunar"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="cloud-drive-ui"/>
         <value type="string" value="system-config-printer"/>
         <value type="string" value="networkmanager applet"/>
         <value type="string" value="task manager"/>
@@ -52,6 +54,7 @@
         <value type="string" value="chromium-browser"/>
         <value type="string" value="blueman-applet"/>
         <value type="string" value="tomahawk"/>
+        <value type="string" value="dropbox"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="gpick"/>
         <value type="string" value="scp-dbus-service.py"/>
