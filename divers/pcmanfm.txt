@@ -1,0 +1,2 @@
+open terminal command:
+bash -c 'terminator --new-tab --working-directory "$PWD"'
