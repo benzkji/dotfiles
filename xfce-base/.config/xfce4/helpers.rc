@@ -1,4 +1,4 @@
-WebBrowser=chromium-browser
+WebBrowser=chromium
 FileManager=pcmanfm
 TerminalEmulator=terminator
 
