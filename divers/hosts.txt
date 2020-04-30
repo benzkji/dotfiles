@@ -1,0 +1,29 @@
+# install:
+# pip install -e https://github.com/benzkji/hosts-manager@master#egg=hosts-manager
+# to use, copy the below into your hosts file, then:
+# sudo hosts enable social distraction news
+# sudo hosts disable social distraction news
+
+
+# start:social
+127.0.0.1	www.facebook.com
+127.0.0.1	www.instagram.com
+127.0.0.1	www.tiktok.com
+# end
+
+
+# start:distraction
+127.0.0.1	www.youtube.com
+127.0.0.1	www.twitter.com
+# end
+
+
+# start:news
+127.0.0.1	www.tagesanzeiger.ch
+127.0.0.1	www.swissinfo.ch
+127.0.0.1	www.srf.ch
+127.0.0.1	www.woz.ch
+127.0.0.1	www.nzz.ch
+# end	
+
+
