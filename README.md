@@ -14,20 +14,22 @@ using gnu stow, antigen, oh-my-zsh.
 
 - sudo apt install arc-theme pcmanfm xdotool terminator virtualenv
 - pip install --user virtualenvwrapper
-- fix $PATH for ~/.local/bin !
-- also, add jumpapp (needs ppa)
+- fix $PATH for ~/.local/bin ! (in zsh/.zshrc)
+- also, add jumpapp (needs ppa, check https://github.com/mkropat/jumpapp) 
 
 ### clone and stow it
 
 - git clone git@github.com:benzkji/dotfiles.git
 - cd dotfiles
 - git submodule update --init
+- stow zsh
+- stow divers (htop, terminator, move-to-next-monitor)
 - stow xfce-base
 - stow xfce-desktop/laptop
-- stow zsh
-- stow divers
+- or 
+- ./gnome-load-settings.sh to initially load gnome keybindings
 
-need to ´stow dir --adopt´ and rightafter ´git checkout .´ probably, at lease for xfce stuff
+need to ´stow dir --adopt´ and rightafter ´git checkout .´ probably, at least for xfce stuff
 
 TODO: maybe? use zgen instead of antigen. https://github.com/tarjoilija/zgen
 

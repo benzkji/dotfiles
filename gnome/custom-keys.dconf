@@ -1,0 +1,52 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom9/']
+
+[custom-keybindings/custom0]
+binding='<Super>y'
+command='jumpapp -w chromium-browser'
+name='Chromium'
+
+[custom-keybindings/custom1]
+binding='<Super>x'
+command='jumpapp -w terminator'
+name='Terminator'
+
+[custom-keybindings/custom2]
+binding='<Super>s'
+command='jumpapp gnome-control-center'
+name='Settings'
+
+[custom-keybindings/custom3]
+binding='<Super>f'
+command='jumpapp -w firefox'
+name='Firefox'
+
+[custom-keybindings/custom4]
+binding='<Super>m'
+command='jumpapp thunderbird'
+name='Thunderbird'
+
+[custom-keybindings/custom5]
+binding='<Super>k'
+command='jumpapp KeeWeb'
+name='KeeWeb'
+
+[custom-keybindings/custom6]
+binding='<Super>e'
+command='jumpapp nautilus'
+name='Explorer'
+
+[custom-keybindings/custom7]
+binding='<Super>d'
+command='jumpapp -w -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh'
+name='Pycharm'
+
+[custom-keybindings/custom8]
+binding='<Super>c'
+command='jumpapp -w gnome-calculator'
+name='Calculator'
+
+[custom-keybindings/custom9]
+binding='<Super>t'
+command='jumpapp -c TelegramDesktop /home/benzkji/Apps/Telegram/Telegram'
+name='Telegram'
