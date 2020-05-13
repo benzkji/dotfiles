@@ -12,21 +12,23 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="XF86Display" type="empty"/>
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
       <property name="XF86Mail" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="Print" type="empty"/>
+      <property name="&lt;Super&gt;l" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="&lt;Alt&gt;Print" type="empty"/>
+      <property name="&lt;Shift&gt;Print" type="empty"/>
       <property name="XF86HomePage" type="empty"/>
       <property name="&lt;Super&gt;w" type="empty"/>
       <property name="&lt;Super&gt;m" type="empty"/>
       <property name="XF86Explorer" type="empty"/>
       <property name="&lt;Super&gt;f" type="empty"/>
       <property name="&lt;Super&gt;F1" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="&lt;Super&gt;t" type="empty"/>
       <property name="&lt;Super&gt;r" type="empty"/>
       <property name="&lt;Super&gt;e" type="empty"/>
@@ -61,7 +63,6 @@
       <property name="&lt;Super&gt;d" type="string" value="jumpapp -w -c jetbrains-pycharm /home/benzkji/Apps/pycharm/bin/pycharm.sh"/>
       <property name="&lt;Super&gt;c" type="string" value="jumpapp -w gnome-calculator"/>
       <property name="&lt;Super&gt;o" type="string" value="jumpapp -w libreoffice --writer"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Down" type="string" value="move-to-next-monitor.sh"/>
       <property name="&lt;Super&gt;m" type="string" value="jumpapp thunderbird"/>
       <property name="&lt;Super&gt;f" type="string" value="jumpapp -w firefox"/>
       <property name="&lt;Super&gt;x" type="string" value="jumpapp -w terminator"/>
@@ -74,6 +75,7 @@
       <property name="&lt;Super&gt;Pause" type="string" value="light-locker-command -l"/>
       <property name="&lt;Super&gt;p" type="string" value="jumpapp evince"/>
       <property name="&lt;Super&gt;r" type="string" value="jumpapp -w screenruler"/>
+      <property name="&lt;Super&gt;Down" type="string" value="move-to-next-monitor.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -139,6 +141,7 @@
       <property name="&lt;Super&gt;KP_7" type="empty"/>
       <property name="&lt;Super&gt;Up" type="empty"/>
       <property name="&lt;Super&gt;KP_9" type="empty"/>
+      <property name="&lt;Super&gt;d" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="Up" type="string" value="up_key"/>
@@ -148,14 +151,12 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_6" type="string" value="move_window_workspace_6_key"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;KP_7" type="string" value="move_window_workspace_7_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Right" type="string" value="move_window_right_key"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Home" type="string" value="move_window_prev_workspace_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Left" type="string" value="move_window_left_key"/>
       <property name="&lt;Alt&gt;F5" type="string" value="maximize_horiz_key"/>
       <property name="&lt;Alt&gt;F12" type="string" value="above_key"/>
       <property name="&lt;Alt&gt;F11" type="string" value="fullscreen_key"/>
       <property name="&lt;Alt&gt;F8" type="string" value="stick_window_key"/>
       <property name="Escape" type="string" value="cancel_key"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;End" type="string" value="move_window_next_workspace_key"/>
       <property name="&lt;Primary&gt;&lt;Shift&gt;&lt;Alt&gt;Up" type="string" value="move_window_up_key"/>
       <property name="Down" type="string" value="down_key"/>
       <property name="&lt;Alt&gt;F6" type="string" value="maximize_vert_key"/>
@@ -180,10 +181,12 @@
       <property name="&lt;Alt&gt;Delete" type="string" value="del_active_workspace_key"/>
       <property name="&lt;Super&gt;Left" type="string" value="tile_left_key"/>
       <property name="&lt;Super&gt;Right" type="string" value="tile_right_key"/>
-      <property name="&lt;Super&gt;Down" type="string" value="show_desktop_key"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;Left" type="string" value="left_workspace_key"/>
       <property name="&lt;Primary&gt;&lt;Super&gt;Right" type="string" value="right_workspace_key"/>
       <property name="&lt;Super&gt;Up" type="string" value="maximize_window_key"/>
+      <property name="&lt;Super&gt;Escape" type="string" value="show_desktop_key"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="move_window_prev_workspace_key"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="move_window_next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">
