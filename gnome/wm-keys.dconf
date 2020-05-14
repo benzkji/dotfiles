@@ -2,5 +2,7 @@
 begin-resize=['<Shift><Alt>r']
 close=['<Alt>q']
 minimize=@as []
+move-to-monitor-left=['<Primary><Shift>Left']
+move-to-monitor-right=['<Primary><Shift>Right']
 panel-main-menu=@as []
 show-desktop=['<Super>minus']
