@@ -1,3 +1,6 @@
 [/]
+begin-resize=['<Shift><Alt>r']
 close=['<Alt>q']
-show-desktop=['<Super>period']
+minimize=@as []
+panel-main-menu=@as []
+show-desktop=['<Super>minus']
