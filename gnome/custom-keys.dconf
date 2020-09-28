@@ -28,7 +28,7 @@ name='Thunderbird'
 
 [custom-keybindings/custom5]
 binding='<Super>k'
-command='jumpapp KeeWeb'
+command='jumpapp keeweb'
 name='KeeWeb'
 
 [custom-keybindings/custom6]
