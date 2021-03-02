@@ -8,10 +8,7 @@ export EDITOR=vim
 
 # http://stackoverflow.com/questions/27410821/how-to-prevent-pip-install-without-virtualenv
 export PIP_REQUIRE_VIRTUALENV=true
-gpip() {
-   PIP_REQUIRE_VIRTUALENV="" pip "$@"
-}
-
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # http://guides.rubygems.org/faqs/#user-install
 if which ruby >/dev/null && which gem >/dev/null; then
