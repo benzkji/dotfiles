@@ -1,3 +1,4 @@
 [/]
+focus-active-notification=@as []
 toggle-message-tray=['<Super>period']
 toggle-overview=@as []
