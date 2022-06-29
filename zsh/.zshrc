@@ -21,6 +21,9 @@ export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 # android sdk, if any?!
 export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools
 
+# poetry
+export PATH="$HOME/.poetry/bin:$PATH"
+
 # antigen stuff.
 source $HOME/dotfiles/antigen/antigen.zsh
 
@@ -50,3 +53,4 @@ antigen apply
 
 # for the virtualenvwrapper plugin!
 cd ./
+
