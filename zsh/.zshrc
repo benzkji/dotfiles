@@ -18,8 +18,11 @@ fi
 # my bin, gpip install --user bin!
 export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
+# jetbrains toolbox thing
+export PATH="$HOME/.local/share/JetBrains/Toolbox/scripts:$PATH":
+
 # android sdk, if any?!
-export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools
+# export PATH=${PATH}:$HOME/Android/Sdk/platform-tools:$HOME/Android/Sdk/tools
 
 # poetry
 export PATH="$HOME/.poetry/bin:$PATH"
