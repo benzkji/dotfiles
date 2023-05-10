@@ -4,17 +4,16 @@
   inactive_color_offset = 0.6944444444444444
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   suppress_multiple_term_dialog = True
-  title_use_system_font = False
 [keybindings]
   split_horiz = <Primary><Shift>h
   split_vert = <Primary><Shift>k
   line_up = <Shift>Up
   line_down = <Shift>Down
+  preferences_keybindings = ""
 [profiles]
   [[default]]
     visible_bell = True
     background_color = "#282828"
-    cursor_color = "#aaaaaa"
     font = DejaVu Sans Mono 11
     foreground_color = "#ebdbb2"
     show_titlebar = False
