@@ -40,6 +40,7 @@ antigen bundle history-substring-search
 antigen bundle virtualenvwrapper
 antigen bundle django
 antigen bundle fabric
+antigen bundle npm
 
 # antigen bundle heroku
 # antigen bundle lein
