@@ -1,4 +1,12 @@
 
+# ALIASES
+
+alias kp="kubectl --kubeconfig=$HOME/.kube/prod.yaml"
+alias kt="kubectl --kubeconfig=$HOME/.kube/test.yaml"
+alias kp-seal="kubeseal --kubeconfig=$HOME/.kube/prod.yaml"
+alias kt-seal="kubeseal --kubeconfig=$HOME/.kube/test.yaml"
+
+# editor
 export EDITOR=vim
 
 # this is handled by oh-my-zsh/virtualenvwrapper
