@@ -28,8 +28,8 @@ name='PDF'
 
 [custom-keybindings/custom13]
 binding='<Super>less'
-command='jumpapp msedge'
-name='Edge'
+command='jumpapp microsoft-sedge'
+name='m$ Edge'
 
 [custom-keybindings/custom14]
 binding='<Super>v'
